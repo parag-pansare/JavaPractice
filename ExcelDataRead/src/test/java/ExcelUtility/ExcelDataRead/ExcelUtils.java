@@ -11,7 +11,6 @@ public class ExcelUtils {
 	public static void main(String[] args) throws IOException {
 		getRowCount();
 		getCellValue();
-
 	}
 	
 	public static void getRowCount() throws IOException {
