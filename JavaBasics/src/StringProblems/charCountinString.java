@@ -12,6 +12,7 @@ public class charCountinString {
         Map<Character, Integer> charCountMap = new HashMap<>();
 
         for (char c : input.toCharArray()) {
+        	
             charCountMap.put(c, charCountMap.getOrDefault(c, 0) + 1);
         }
 

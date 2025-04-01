@@ -12,7 +12,7 @@ public class sameCharCount {
 		for(int i=0; i<n; i++) {
 			int count = 1;
 			for(int j=i+1; j<n; j++) {
-				if(Character.toLowerCase(str.charAt(i)) == Character.toLowerCase(str.charAt(j))) {
+				if(str.charAt(i) == str.charAt(j)) {
 					count++;
 				}
 			}
@@ -23,7 +23,8 @@ public class sameCharCount {
 	
 	public static void main(String[] args) {
 		String str = "india";
-		charCount(str);
+		String str1 = str.toLowerCase();
+		charCount(str1);
 
 	}
 

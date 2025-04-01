@@ -16,7 +16,6 @@ public class mapDemo {
 		num.put(4, "Four");
 		num.put(3, "Three");
 		
-		
 		num.putIfAbsent(4, "Six");
 		System.out.println(num);
 		System.out.println("HashMap contains Two? : "+num.containsValue("Two"));
@@ -38,6 +37,9 @@ public class mapDemo {
 		for(String value:num.values()) {
 			System.out.println(value);
 		}
+		
+		System.out.println(num.containsValue("Two"));
+		System.out.println(num.containsKey(1));
 	}
 
 }
